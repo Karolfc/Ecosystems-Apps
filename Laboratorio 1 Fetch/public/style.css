@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: medium;
+    
+}
+
+#title {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6vh;
+    padding-bottom: 5vh;
+    font-size: 30px;
+}
+
+#texto {
+    margin-left: 20vw;
+}
+
+#contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 6vh;
+}
+
+button {
+    background-color: black;
+    border-color: white;
+    padding: 1vh 2vh;
+    border-radius: 8px;  
+    width: 150px;  
+    height: auto;
+}
+
+#renderFetch{
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+
+#imgUser {
+    border-radius: 100%;
+}
+
+#fotoDog {
+    border-radius: 10px;
+}
